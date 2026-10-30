@@ -3,242 +3,126 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="A beautiful Valentine's Day interactive experience">
-  <title>Be My Valentine ❤️</title>
+  <meta name="description" content="A fun and heartfelt Best Friend Forever surprise for my Bestie.">
+  <meta name="theme-color" content="#ff7eb6">
+  <title>Bestie Forever 💛</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <main role="main">
-
-<div id="app">
+<main id="app">
   <div class="floating-elements" id="floatingContainer"></div>
   <div class="page-wrapper">
-
-    <!-- PAGE 1 -->
     <section class="page" id="page1">
-      <div class="rose-decoration rose-top-left" aria-hidden="true">🌹</div>
-      <div class="rose-decoration rose-top-right" aria-hidden="true">🌹</div>
-      
+      <div class="rose-decoration rose-top-left">⭐</div><div class="rose-decoration rose-top-right">🫶</div>
       <div class="content-container">
-        <div class="pulse-animation" aria-hidden="true">💍</div>
-        <h1 class="gradient-text">Will You Be My Best friend?</h1>
-        <p class="subtitle"> Bestie , you are gadhe pata h tuje. Will you be gadhe  forever and make me happy </p>
-        
+        <div class="pulse-animation" aria-hidden="true">🫂</div>
+        <h1 class="gradient-text">Oye Bestie! Ready for a surprise? 💛</h1>
+        <p class="subtitle">Sun na, gadhe 😂 Tere liye kuch special banaya hai. Friendship test ke liye ready?</p>
         <div class="buttons-container">
-          <button type="button" id="yesBtn" class="btn-yes" aria-label="Yes, I will be your bestie">YES! 💕</button>
-          <button type="button" id="noBtn" class="btn-no" aria-label="No button">NO</button>
+          <button type="button" id="yesBtn" class="btn-yes">YES, obviously! 😎</button>
+          <button type="button" id="noBtn" class="btn-no">NO 🙄</button>
         </div>
       </div>
-      
-      <div class="rose-decoration rose-bottom-left" aria-hidden="true">🌹</div>
-      <div class="rose-decoration rose-bottom-right" aria-hidden="true">🌹</div>
+      <div class="rose-decoration rose-bottom-left">✨</div><div class="rose-decoration rose-bottom-right">💛</div>
     </section>
 
-    <!-- PAGE 2 -->
     <section class="page" id="page2">
-      <div class="rose-decoration rose-top-left" aria-hidden="true">🌹</div>
-      <div class="rose-decoration rose-top-right" aria-hidden="true">🌹</div>
-      
       <div class="content-container">
-        <h1 class="gradient-text">Good Choice, Baby! ✨</h1>
-        <p class="subtitle">Feeling trapped already? 😏  </p> 
-         <p class="subtitle">Don’t worry… there *might* be a way out 👀   </p>
-        
+        <div class="pulse-animation">🎉</div>
+        <h1 class="gradient-text">Bestie Level: UNLOCKED! 🏆</h1>
+        <p class="subtitle">Haan haan, mujhe pata tha YES hi karega/karegi. Ab itni aasani se escape nahi milega 😂</p>
         <div class="button-group">
-          <button type="button" id="lateBtn" class="btn-primary" aria-label="Click here button">Click Here to Escape 😌</button>
-          <p class="separator-text">─ or ─</p>
-          <button type="button" id="readLetter" class="btn-outline" aria-label="Read my letter button">📬 Read My Letter</button>
+          <button type="button" id="lateBtn" class="btn-primary">Try to escape 😏</button>
+          <p class="separator-text">─ ya phir ─</p>
+          <button type="button" id="readLetter" class="btn-outline">💌 Read my friendship letter</button>
         </div>
       </div>
-      
-      <div class="rose-decoration rose-bottom-left" aria-hidden="true">🌹</div>
-      <div class="rose-decoration rose-bottom-right" aria-hidden="true">🌹</div>
     </section>
 
-    <!-- TOO LATE OVERLAY POPUP -->
     <div id="popup" class="overlay-hidden" role="dialog" aria-modal="true" aria-labelledby="popup-title">
-      <div class="popup-container">
-        <div class="popup-box">
-          <div class="popup-icon" aria-hidden="true">🤪``</div>
-          <h2 id="popup-title">Too Late! 💕</h2>
-          <p>Nice try 😌  
-             There is no escape…  
-             You’re officially stuck with me forever ❤️</p>
-          <button type="button" id="goBack" class="btn-primary">Go Back</button>
-        </div>
-      </div>
+      <div class="popup-container"><div class="popup-box">
+        <div class="popup-icon">😂</div><h2 id="popup-title">Escape cancelled!</h2>
+        <p>Bestie ho bhai! Friendship ki lifetime membership mil chuki hai. Terms & conditions: unlimited bakchodi, support aur memories. 🤝</p>
+        <button type="button" id="goBack" class="btn-primary">Theek hai 😂</button>
+      </div></div>
     </div>
 
-    <!-- PAGE 3 -->
     <section class="page" id="page3">
-      <div class="rose-decoration rose-top-left" aria-hidden="true">🌹</div>
-      <div class="rose-decoration rose-top-right" aria-hidden="true">🌹</div>
-      
       <div class="content-container">
-        <h1 class="gradient-text">To My Dearest…</h1>
-        <div class="letter-box">
-          <p class="letter">
-            My love,<br><br>
-            Thank you for being the most amazing person in my life.
-            You make every ordinary moment feel magical.
-            I'm so lucky to have you by my side.<br><br>
-            Every day with you is a blessing.
-            Your love has transformed my world.
-            You are my greatest treasure.<br><br>
-            Forever & Always 💕
-          </p>
-        </div>
-        <button type="button" id="memories" class="btn-primary" aria-label="Go to memories page">🖼️ Our Memories</button>
+        <h1 class="gradient-text">Dear Bestie… 💛</h1>
+        <div class="letter-box"><p class="letter">
+          Oye Bestie,<br><br>
+          Pata hai, life mein friends toh bahut milte hain, but tere jaisa pagal dost milna rare hai. 😂<br><br>
+          Thanks for every laugh, every random conversation, every stupid joke and for being there when things get tough. Kabhi roast karta/karti hai, kabhi irritate… but honestly, tu important hai yaar.<br><br>
+          Life kitni bhi busy ho jaaye, I hope humari dosti aise hi bani rahe. No drama, no formality — bas real friendship, unlimited memories and endless bakchodi!<br><br>
+          Always your friend,<br><strong>Your partner-in-crime 🫂</strong>
+        </p></div>
+        <button type="button" id="memories" class="btn-primary">📸 Friendship memories</button>
       </div>
-      
-      <div class="rose-decoration rose-bottom-left" aria-hidden="true">🌹</div>
-      <div class="rose-decoration rose-bottom-right" aria-hidden="true">🌹</div>
     </section>
 
-    <!-- PAGE 4 -->
     <section class="page" id="page4">
-      <div class="rose-decoration rose-top-left" aria-hidden="true">🌹</div>
-      <div class="rose-decoration rose-top-right" aria-hidden="true">🌹</div>
-      
       <div class="content-container">
-        <h1 class="gradient-text">Our Beautiful Moments 📸</h1>
-        <p class="subtitle">Click on the hearts to reveal memories (click again to hide)</p>
+        <h1 class="gradient-text">Our Crazy Memories 📸</h1>
+        <p class="subtitle">Hearts pe tap karke memories reveal karo. (Apni photos images folder mein replace kar sakte ho.)</p>
         <div class="grid">
-          <div class="heart-card" data-img="p1.jpeg" role="button" tabindex="0" aria-label="Memory 1">
-            <div class="heart-icon" aria-hidden="true">💕</div>
-            <div class="heart-image">
-              <picture>
-                <source srcset="images/p1.jpeg" type="image/jpeg">
-                <img src="images/p1.jpeg" alt="Beautiful memory 1" loading="lazy">
-              </picture>
-            </div>
-          </div>
-          <div class="heart-card" data-img="p2.jpeg" role="button" tabindex="0" aria-label="Memory 2">
-            <div class="heart-icon" aria-hidden="true">💕</div>
-            <div class="heart-image">
-              <picture>
-                <source srcset="images/p2.jpeg" type="image/jpeg">
-                <img src="images/p2.jpeg" alt="Beautiful memory 2" loading="lazy">
-              </picture>
-            </div>
-          </div>
-          <div class="heart-card" data-img="p3.jpeg" role="button" tabindex="0" aria-label="Memory 3">
-            <div class="heart-icon" aria-hidden="true">💕</div>
-            <div class="heart-image">
-              <picture>
-                <source srcset="images/p3.jpeg" type="image/jpeg">
-                <img src="images/p3.jpeg" alt="Beautiful memory 3" loading="lazy">
-              </picture>
-            </div>
-          </div>
-          <div class="heart-card" data-img="p4.png" role="button" tabindex="0" aria-label="Memory 4">
-            <div class="heart-icon" aria-hidden="true">💕</div>
-            <div class="heart-image">
-              <picture>
-                <source srcset="images/p4.png" type="image/png">
-                <img src="images/p4.png" alt="Beautiful memory 4" loading="lazy">
-              </picture>
-            </div>
-          </div>
-          <div class="heart-card" data-img="p5.jpeg" role="button" tabindex="0" aria-label="Memory 5">
-            <div class="heart-icon" aria-hidden="true">💕</div>
-            <div class="heart-image">
-              <picture>
-                <source srcset="images/p5.jpeg" type="image/jpeg">
-                <img src="images/p5.jpeg" alt="Beautiful memory 5" loading="lazy">
-              </picture>
-            </div>
-          </div>
-          <div class="heart-card" data-img="p6.jpeg" role="button" tabindex="0" aria-label="Memory 6">
-            <div class="heart-icon" aria-hidden="true">💕</div>
-            <div class="heart-image">
-              <picture>
-                <source srcset="images/p6.jpeg" type="image/jpeg">
-                <img src="images/p6.jpeg" alt="Beautiful memory 6" loading="lazy">
-              </picture>
-            </div>
-          </div>
+          <div class="heart-card" role="button" tabindex="0" aria-label="Memory 1"><div class="heart-icon">😂</div><div class="heart-image"><img src="images/p1.jpeg" alt="Friendship memory 1" loading="lazy"></div></div>
+          <div class="heart-card" role="button" tabindex="0" aria-label="Memory 2"><div class="heart-icon">🤝</div><div class="heart-image"><img src="images/p2.jpeg" alt="Friendship memory 2" loading="lazy"></div></div>
+          <div class="heart-card" role="button" tabindex="0" aria-label="Memory 3"><div class="heart-icon">🥹</div><div class="heart-image"><img src="images/p3.jpeg" alt="Friendship memory 3" loading="lazy"></div></div>
+          <div class="heart-card" role="button" tabindex="0" aria-label="Memory 4"><div class="heart-icon">😎</div><div class="heart-image"><img src="images/p4.png" alt="Friendship memory 4" loading="lazy"></div></div>
+          <div class="heart-card" role="button" tabindex="0" aria-label="Memory 5"><div class="heart-icon">🫶</div><div class="heart-image"><img src="images/p5.jpeg" alt="Friendship memory 5" loading="lazy"></div></div>
+          <div class="heart-card" role="button" tabindex="0" aria-label="Memory 6"><div class="heart-icon">💛</div><div class="heart-image"><img src="images/p6.jpeg" alt="Friendship memory 6" loading="lazy"></div></div>
         </div>
-        <button type="button" id="playPuzzle" class="btn-primary" aria-label="Go to puzzle game">🧩 Solve My Puzzle</button>
+        <button type="button" id="playPuzzle" class="btn-primary">🧩 Fix our friendship puzzle</button>
       </div>
-      
-      <div class="rose-decoration rose-bottom-left" aria-hidden="true">🌹</div>
-      <div class="rose-decoration rose-bottom-right" aria-hidden="true">🌹</div>
     </section>
 
-    <!-- PAGE 5 -->
     <section class="page" id="page5">
-      <div class="rose-decoration rose-top-left" aria-hidden="true">🌹</div>
-      <div class="rose-decoration rose-top-right" aria-hidden="true">🌹</div>
-      
       <div class="content-container">
-        <h1 class="gradient-text">Fix My Heart 🧩</h1>
-        <p class="subtitle">Put the pieces together to fix my heart</p>
-        <div class="puzzle" id="puzzle" role="region" aria-label="Puzzle game grid"></div>
+        <h1 class="gradient-text">Friendship Puzzle 🧩</h1>
+        <p class="subtitle">Pieces sahi jagah lagao — jaise hum ek dusre ki life mein perfect fit hain! 😄</p>
+        <div class="puzzle" id="puzzle" role="region" aria-label="Friendship puzzle game"></div>
         <div class="puzzle-controls">
-          <button type="button" id="shuffle" class="btn-secondary" aria-label="Shuffle puzzle pieces">🔀 Shuffle</button>
-          <button type="button" id="whyLove" class="btn-primary" aria-label="Skip puzzle and see reasons">💭 Why I Love You</button>
+          <button type="button" id="shuffle" class="btn-secondary">🔀 Shuffle</button>
+          <button type="button" id="whyLove" class="btn-primary">💭 10 reasons we're besties</button>
         </div>
       </div>
-      
-      <div class="rose-decoration rose-bottom-left" aria-hidden="true">🌹</div>
-      <div class="rose-decoration rose-bottom-right" aria-hidden="true">🌹</div>
     </section>
 
-    <!-- PAGE 6 -->
     <section class="page" id="page6">
-      <div class="rose-decoration rose-top-left" aria-hidden="true">🌹</div>
-      <div class="rose-decoration rose-top-right" aria-hidden="true">🌹</div>
-      
       <div class="content-container">
-        <h1 class="gradient-text">10 Reasons Why I Love You ❤️</h1>
-        <div class="reasons-box">
-          <ol>
-            <li>You are my safest place</li>
-            <li>Your smile melts me completely</li>
-            <li>You make me laugh like no one else</li>
-            <li>You care about every detail</li>
-            <li>You are beautiful inside & out</li>
-            <li>You support me always</li>
-            <li>Your hand fits mine perfectly</li>
-            <li>You make me a better person</li>
-            <li>Your voice is my favorite sound</li>
-            <li>Life is infinitely better with you</li>
-          </ol>
-        </div>
-        <button type="button" id="final" class="btn-primary" aria-label="Go to final surprise page">🎁 Final Surprise</button>
+        <h1 class="gradient-text">10 Reasons You're My Bestie 💛</h1>
+        <div class="reasons-box"><ol>
+          <li>Teri bakwaas bhi kabhi-kabhi entertaining hoti hai. 😂</li>
+          <li>Tu bina filter ke real rehta/rehti hai.</li>
+          <li>Random jokes aur pagalpan ka perfect partner hai.</li>
+          <li>Bad days ko thoda better bana deta/deti hai.</li>
+          <li>Roasting mein world champion hai. 🏆</li>
+          <li>Important moments mein saath khada/khadi rehta/rehti hai.</li>
+          <li>Silence ho ya non-stop talking, dono comfortable hain.</li>
+          <li>Humari memories priceless hain.</li>
+          <li>Distance ya busy schedule dosti change nahi kar sakta.</li>
+          <li>Because you're simply YOU — my bestie! 🫂</li>
+        </ol></div>
+        <button type="button" id="final" class="btn-primary">🎁 One last surprise</button>
       </div>
-      
-      <div class="rose-decoration rose-bottom-left" aria-hidden="true">🌹</div>
-      <div class="rose-decoration rose-bottom-right" aria-hidden="true">🌹</div>
     </section>
 
-    <!-- PAGE 7 -->
     <section class="page" id="page7">
       <div class="fireworks-container" id="fireworksContainer" aria-hidden="true"></div>
       <div class="confetti-container" id="confettiContainer" aria-hidden="true"></div>
       <div class="sky-burst" id="skyBurst" aria-hidden="true"></div>
-      
-      <div class="rose-decoration rose-top-left" aria-hidden="true">🌹</div>
-      <div class="rose-decoration rose-top-right" aria-hidden="true">🌹</div>
-      <div class="rose-decoration rose-center" aria-hidden="true">🌹</div>
-      
       <div class="content-container celebration">
         <div class="pulse-glow" aria-hidden="true"></div>
-        <h1 class="gradient-text celebration-text glow-text">Happy Valentine's Day Baby! 💕</h1>
-        <p class="subtitle celebration-subtitle">From the moment you came into my life, everything felt complete 🌍💕</p>
-        <p class="love-message">Loving you is the easiest and most beautiful thing my heart has ever done 💕 </p>
+        <h1 class="gradient-text celebration-text glow-text">BEST FRIENDS. NO END DATE. 🫂</h1>
+        <p class="subtitle celebration-subtitle">Chahe duniya idhar se udhar ho jaaye, tu mera bestie rahega/rahegi! 💛</p>
+        <p class="love-message">Dosti hai boss — lifetime subscription, zero cancellation! 😂🤝</p>
+        <button type="button" id="restart" class="btn-primary">🔁 Ek baar phir se!</button>
         <div class="heart-burst" aria-hidden="true"></div>
       </div>
-      
-      <div class="rose-decoration rose-bottom-left" aria-hidden="true">🌹</div>
-      <div class="rose-decoration rose-bottom-right" aria-hidden="true">🌹</div>
     </section>
-
   </div>
-  </main>
-
+</main>
 <script src="script.js"></script>
 </body>
 </html>
-
